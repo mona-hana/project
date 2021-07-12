@@ -1,0 +1,47 @@
+body{
+    margin: 0px;
+    width: 100%;
+    margin: 0px , auto, 0;
+    direction: rtl;
+    background-color: #B8B8B8;
+}
+#header{
+    width: 100%;
+    height: 80px;
+    background-color: #707070;
+    text-align: center;
+   
+}
+#logo{
+    width: 70px; 
+     height:70px;
+     float:right ;
+     
+}
+#header div:first-of-type {
+    border: blue 1px solid;
+    width: 15%; 
+    height: 80px; 
+    margin-right: 4%;
+    background-color: turquoise;
+    
+     float: right; 
+}
+#header div:nth-child(2) {
+    border: red 1px solid; 
+    width: 60%; 
+    height: 80px;
+    float: right;
+}
+#header div:nth-child(3) {
+    border: blue 1px solid; float: right;
+    height: 80px; 
+    width: 15%;
+    margin-left:4% ; 
+}
+#footer{
+    width: 100%;
+    height: 80px;
+    background-color:#4B5267;
+    clear: both;
+}
