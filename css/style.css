@@ -23,7 +23,7 @@ body{
     width: 15%; 
     height: 80px; 
     margin-right: 4%;
-    background-color: turquoise;
+    
     
      float: right; 
 }
@@ -39,9 +39,49 @@ body{
     width: 15%;
     margin-left:4% ; 
 }
+#slideDiv{
+    width: 100%;
+     height:600px;
+     background-color: darkslategray;
+      display: block;
+
+}
+#slideImg{
+    width: 100%; height: 600px;
+    
+}
+.portfolioDiv{
+    border: hotpink 1px solid;
+    width: 100%; 
+    height: 800px; 
+    text-align: center;
+}
+.customerDiv{
+    height: 400px;
+    background-color: #F7BA0A;
+}
+.portfolio{
+    width: 300px; 
+    height: 300px;
+    background-color: darkblue;
+   
+}
+.userTeam{
+    height: 400px;
+     width: 400px;
+      border: indianred 1px solid ;
+       float: right;
+       background-color: brown;
+       text-align: center;
+}
+.formSet{
+    width: 50%;
+     float: right;
+    background-color: darkslategray;
+}
 #footer{
     width: 100%;
-    height: 80px;
+    height: 300px;
     background-color:#4B5267;
     clear: both;
 }
